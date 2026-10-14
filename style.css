@@ -124,3 +124,27 @@ a.card{display:block;color:inherit}
 .gb h3{font-size:26px;color:var(--gold);margin:18px 0 8px}.gb p{margin-bottom:12px}.gb a{color:var(--gold);text-decoration:underline}
 
 .faq{max-width:860px}details{border-bottom:1px solid #ffffff1a;padding:18px 0}summary{cursor:pointer;font-family:'Cormorant Garamond',Georgia,serif;font-size:23px;list-style:none}summary::-webkit-details-marker{display:none}summary::after{content:'+';float:right;color:var(--gold)}details[open] summary::after{content:'\2013'}details p{color:#cfc8ba;margin-top:12px;font-size:15px}
+/* Homepage Social Media Links */
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin-top: 24px;
+}
+.social-links a {
+  display: inline-block;
+  padding: 10px 18px;
+  border: 1px solid #c9a45c;
+  border-radius: 4px;
+  color: #c9a45c;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.social-links a:hover {
+  background: #c9a45c;
+  color: #111;
+}
